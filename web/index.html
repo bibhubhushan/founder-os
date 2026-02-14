@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FounderOS — Your AI Startup Team</title>
+    <meta name="description" content="5 AI agents that help you build your startup. No API keys needed. Free forever.">
+    <meta property="og:title" content="FounderOS — 5 AI Agents, Zero API Keys">
+    <meta property="og:description" content="Your AI startup team. Clone it, open in Antigravity, start building. No API keys. Totally free.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FounderOS — 5 AI Agents, Zero API Keys">
+    <meta name="twitter:description" content="I made a free AI team for founders. 5 agents, no API keys, works in Antigravity.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%E2%97%86</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="particles"></canvas>
+
+    <nav class="nav">
+        <a href="#" class="nav-brand"><span class="nav-icon">&#9670;</span> FounderOS</a>
+        <div class="nav-links">
+            <a href="#demo">Demo</a>
+            <a href="#agents">Agents</a>
+            <a href="#install">Install</a>
+            <a href="https://github.com/bibhubhushan/founder-os" target="_blank" rel="noopener" class="nav-gh">
+                <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                GitHub
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-badge animate-in" style="--d:0">
+            <span class="badge-pulse"></span>
+            Open Source &middot; Antigravity-Native &middot; Zero API Keys
+        </div>
+        <h1 class="hero-title animate-in" style="--d:1">
+            <span class="title-top" data-text="FOUNDER">FOUNDER</span>
+            <span class="title-bot" data-text="OS">OS</span>
+        </h1>
+        <p class="hero-sub animate-in" style="--d:2">
+            Your AI startup team that <span id="typeTarget" class="type-text"></span><span class="type-cursor">|</span>
+        </p>
+        <div class="hero-stats animate-in" style="--d:3">
+            <div class="hstat">
+                <span class="hstat-num" data-target="5">0</span>
+                <span class="hstat-label">AI Agents</span>
+            </div>
+            <span class="hstat-sep">&middot;</span>
+            <div class="hstat">
+                <span class="hstat-num" data-target="11">0</span>
+                <span class="hstat-label">Workflows</span>
+            </div>
+            <span class="hstat-sep">&middot;</span>
+            <div class="hstat">
+                <span class="hstat-num" data-target="10000" data-suffix="+">0</span>
+                <span class="hstat-label">Lines</span>
+            </div>
+        </div>
+        <div class="hero-btns animate-in" style="--d:4">
+            <a href="#install" class="btn-main">Get Started &rarr;</a>
+            <a href="https://github.com/bibhubhushan/founder-os" class="btn-ghost" target="_blank" rel="noopener">&#11088; Star on GitHub</a>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee">
+        <div class="marquee-track">
+            <span>&#129504; Remembers Everything</span><span>&#128202; Tracks Progress</span><span>&#129517; Picks the Right Agent</span><span>&#128101; Team Combos</span><span>&#129309; Agents Know Each Other</span><span>&#128193; Ready Templates</span><span>&#9889; No API Keys</span><span>&#128274; Runs Locally</span>
+            <span>&#129504; Remembers Everything</span><span>&#128202; Tracks Progress</span><span>&#129517; Picks the Right Agent</span><span>&#128101; Team Combos</span><span>&#129309; Agents Know Each Other</span><span>&#128193; Ready Templates</span><span>&#9889; No API Keys</span><span>&#128274; Runs Locally</span>
+        </div>
+    </div>
+
+    <!-- Terminal Demo -->
+    <section id="demo" class="section demo-section">
+        <h2 class="sec-title scroll-reveal">Watch It Work</h2>
+        <p class="sec-sub scroll-reveal">This is what it looks like. Clone, open, type a command. That's it.</p>
+        <div class="terminal scroll-reveal">
+            <div class="term-header">
+                <div class="term-dots"><span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span></div>
+                <span class="term-title">FounderOS &mdash; Terminal</span>
+                <div class="term-dots" style="visibility:hidden"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+            </div>
+            <div id="termBody" class="term-body"></div>
+        </div>
+    </section>
+
+    <!-- Agents -->
+    <section id="agents" class="section agents-section">
+        <h2 class="sec-title scroll-reveal">Your Team</h2>
+        <p class="sec-sub scroll-reveal">5 agents. Each one is really good at one thing. They don't step on each other.</p>
+        <div class="agents-grid">
+            <div class="acard scroll-reveal" style="--ac:#8b5cf6">
+                <div class="acard-top"><div class="acard-avatar">&#129504;</div><div><h3 class="acard-name">ELON</h3><span class="acard-tag">The Consigliere</span></div><span class="acard-num">#03</span></div>
+                <p class="acard-role">Thinks big, challenges your idea</p>
+                <p class="acard-quote">"Are you building something people actually want?"</p>
+                <div class="acard-skills"><span>Big Picture</span><span>Hard Questions</span><span>What Could Go Wrong</span><span>10x Thinking</span></div>
+                <div class="acard-footer"><span class="acard-stat">480+ lines &middot; 6 frameworks</span><code class="acard-cmd">/ceo</code></div>
+            </div>
+            <div class="acard scroll-reveal" style="--ac:#f59e0b">
+                <div class="acard-top"><div class="acard-avatar">&#9881;&#65039;</div><div><h3 class="acard-name">SATOSHI</h3><span class="acard-tag">CHRONOS</span></div><span class="acard-num">#01</span></div>
+                <p class="acard-role">Plans your week, keeps you on track</p>
+                <p class="acard-quote">"Stop planning. Start shipping."</p>
+                <div class="acard-skills"><span>Weekly Sprints</span><span>Task Breakdown</span><span>Priorities</span><span>Deadlines</span></div>
+                <div class="acard-footer"><span class="acard-stat">2,200+ lines &middot; 11 frameworks</span><code class="acard-cmd">/coo</code></div>
+            </div>
+            <div class="acard acard-featured scroll-reveal" style="--ac:#06b6d4">
+                <div class="acard-badge">&#9733; Most Powerful</div>
+                <div class="acard-top"><div class="acard-avatar">&#128187;</div><div><h3 class="acard-name">DANIEL</h3><span class="acard-tag">The Architect</span></div><span class="acard-num">#04</span></div>
+                <p class="acard-role">Builds everything, front to back</p>
+                <p class="acard-quote">"If it's not WOW, it's trash."</p>
+                <div class="acard-skills"><span>Web Apps</span><span>Backend</span><span>AI/ML</span><span>Deployment</span><span>Security</span><span>Mobile</span></div>
+                <div class="acard-footer"><span class="acard-stat">5,650+ lines &middot; 2 skills</span><code class="acard-cmd">/cto</code></div>
+            </div>
+            <div class="acard scroll-reveal" style="--ac:#ec4899">
+                <div class="acard-top"><div class="acard-avatar">&#127912;</div><div><h3 class="acard-name">BRIAN</h3><span class="acard-tag">Design Prodigy</span></div><span class="acard-num">#05</span></div>
+                <p class="acard-role">Makes it look and feel great</p>
+                <p class="acard-quote">"Good design is invisible. Bad design is everywhere."</p>
+                <div class="acard-skills"><span>UI Design</span><span>Fonts &amp; Colors</span><span>Animations</span><span>User Flow</span></div>
+                <div class="acard-footer"><span class="acard-stat">810+ lines &middot; 6 frameworks</span><code class="acard-cmd">/cdo</code></div>
+            </div>
+            <div class="acard scroll-reveal" style="--ac:#10b981">
+                <div class="acard-top"><div class="acard-avatar">&#127891;</div><div><h3 class="acard-name">ANDREJ</h3><span class="acard-tag">SOCRATES</span></div><span class="acard-num">#06</span></div>
+                <p class="acard-role">Teaches you what you don't know</p>
+                <p class="acard-quote">"If you can't explain it simply, you don't understand it."</p>
+                <div class="acard-skills"><span>Explain Simply</span><span>Ask Why</span><span>Find Gaps</span><span>Connect Ideas</span></div>
+                <div class="acard-footer"><span class="acard-stat">2,370+ lines &middot; 5 frameworks</span><code class="acard-cmd">/cro</code></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Formations -->
+    <section class="section combos-section">
+        <h2 class="sec-title scroll-reveal">Mix &amp; Match</h2>
+        <p class="sec-sub scroll-reveal">Need more than one agent? Combine them.</p>
+        <div class="combos-grid">
+            <div class="combo scroll-reveal"><span class="combo-emoji">&#129504; + &#9881;&#65039;</span><code>/cofounder</code><span class="combo-desc">Think + Do</span></div>
+            <div class="combo scroll-reveal"><span class="combo-emoji">&#129504; + &#128187; + &#127912;</span><code>/team_mvp</code><span class="combo-desc">Plan + Build + Design</span></div>
+            <div class="combo scroll-reveal"><span class="combo-emoji">&#9881;&#65039; + &#128187; + &#127912; + &#127891;</span><code>/core_team</code><span class="combo-desc">Everyone who builds</span></div>
+            <div class="combo scroll-reveal"><span class="combo-emoji">&#129504; + &#9881;&#65039; + &#128187; + &#127912; + &#127891;</span><code>/all_hands</code><span class="combo-desc">The whole team</span></div>
+        </div>
+    </section>
+
+    <!-- Comparison -->
+    <section class="section compare-section">
+        <h2 class="sec-title scroll-reveal">Before &amp; After</h2>
+        <div class="compare scroll-reveal">
+            <div class="compare-col compare-bad">
+                <h3>Without FounderOS</h3>
+                <ul>
+                    <li>Deciding the same stuff again every week</li>
+                    <li>Everything in one messy chat</li>
+                    <li>AI forgets everything next session</li>
+                    <li>Vague answers that don't help</li>
+                    <li>No record of what you decided</li>
+                </ul>
+            </div>
+            <div class="compare-col compare-good">
+                <h3>With FounderOS</h3>
+                <ul>
+                    <li>Remembers everything you told it</li>
+                    <li>Right agent for the right job</li>
+                    <li>Tells you exactly what to do next</li>
+                    <li>Real plans, not generic advice</li>
+                    <li>Saves all your decisions and lessons</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="section how-section">
+        <h2 class="sec-title scroll-reveal">Start in 3 Steps</h2>
+        <div class="steps">
+            <div class="step scroll-reveal">
+                <div class="step-num">1</div>
+                <h3>Clone</h3>
+                <p>One command. Nothing to install. No keys.</p>
+            </div>
+            <div class="step-arrow scroll-reveal">&rarr;</div>
+            <div class="step scroll-reveal">
+                <div class="step-num">2</div>
+                <h3>Open in Antigravity</h3>
+                <p>Open the folder. Your agents are ready.</p>
+            </div>
+            <div class="step-arrow scroll-reveal">&rarr;</div>
+            <div class="step scroll-reveal">
+                <div class="step-num">3</div>
+                <h3>Ship</h3>
+                <p>Type a command. Get stuff done.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Install -->
+    <section id="install" class="section install-section">
+        <h2 class="sec-title scroll-reveal">Get FounderOS</h2>
+        <p class="sec-sub scroll-reveal">Copy this. Open in Antigravity. Start building.</p>
+        <div class="install-box scroll-reveal">
+            <code id="installCmd">git clone https://github.com/bibhubhushan/founder-os.git &amp;&amp; cd founder-os</code>
+            <button id="copyBtn" class="copy-btn" type="button">Copy</button>
+        </div>
+        <div class="install-ctas scroll-reveal">
+            <a href="https://github.com/bibhubhushan/founder-os" class="btn-main" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-brand"><span>&#9670;</span> FounderOS</div>
+        <p>5 agents. No API keys. Just ship.</p>
+        <p class="footer-dim">Free forever &middot; Open Source &middot; Built for Antigravity</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

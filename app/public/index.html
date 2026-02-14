@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FounderOS Console</title>
+  <meta name="description" content="FounderOS local console — zero API keys, pure Antigravity.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%E2%97%86</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-icon">&#9670;</span>
+      <h1>FounderOS</h1>
+      <span class="brand-tag">Console</span>
+    </div>
+    <div class="status">
+      <span class="badge">Zero API Keys</span>
+      <span class="badge">Antigravity-Native</span>
+      <span id="healthDot" class="health-dot"></span>
+      <span id="healthText" class="health-text">Connecting...</span>
+    </div>
+  </header>
+
+  <div class="layout">
+    <!-- Left: Commands -->
+    <aside class="panel left-panel" aria-label="Commands">
+      <div class="panel-head">
+        <h2>Commands</h2>
+      </div>
+      <div id="commandList" class="command-list"></div>
+      <div class="panel-head" style="margin-top:1rem"><h3>Quick Starts</h3></div>
+      <div id="quickPrompts" class="quick-prompts"></div>
+    </aside>
+
+    <!-- Center: Chat -->
+    <main class="chat-panel" aria-label="Chat">
+      <div class="chat-top">
+        <div>
+          <span class="label">Active Route</span>
+          <span id="routeBadge" class="route-badge">/coo</span>
+        </div>
+        <button id="clearChatBtn" class="btn-sm btn-ghost" type="button">Clear</button>
+      </div>
+
+      <div id="messages" class="messages" role="log" aria-live="polite"></div>
+
+      <div class="suggestions-bar">
+        <span class="label">Suggested</span>
+        <div id="suggestions" class="suggestions"></div>
+      </div>
+
+      <form id="composer" class="composer">
+        <label for="input" class="sr-only">Message</label>
+        <textarea id="input" name="input" rows="3" placeholder="Type your objective... Example: /team_mvp build onboarding MVP in 72 hours"></textarea>
+        <div class="composer-row">
+          <label class="field">
+            <span>Mode</span>
+            <select id="commandSelect" name="command"></select>
+          </label>
+          <label class="toggle-wrap">
+            <input id="persistToggle" type="checkbox" checked>
+            <span>Auto-log</span>
+          </label>
+          <button id="sendBtn" type="submit" class="btn-send">Send</button>
+        </div>
+      </form>
+    </main>
+
+    <!-- Right: Memory -->
+    <aside class="panel right-panel" aria-label="Memory">
+      <div class="panel-head">
+        <h2>Memory</h2>
+        <button id="reloadMemoryBtn" class="btn-sm btn-ghost" type="button">Reload</button>
+      </div>
+      <div id="memoryTabs" class="memory-tabs"></div>
+      <label for="memoryEditor" class="sr-only">Memory editor</label>
+      <textarea id="memoryEditor" class="memory-editor" spellcheck="false"></textarea>
+      <div class="memory-actions">
+        <button id="saveMemoryBtn" type="button" class="btn-save">Save</button>
+      </div>
+    </aside>
+  </div>
+
+  <template id="messageTemplate">
+    <article class="msg">
+      <header>
+        <span class="msg-role"></span>
+        <span class="msg-meta"></span>
+      </header>
+      <pre class="msg-content"></pre>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
