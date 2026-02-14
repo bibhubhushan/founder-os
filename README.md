@@ -1,27 +1,27 @@
 # FounderOS
 
-### 5 AI agents that help you build your startup. No API keys. Totally free.
+### Build agentically without API keys. 5 AI agents for strategy, ops, code, design, and research.
 
-> You don't need money to have a great team. Just clone this and start.
+> Most founders do not fail at ideas. They fail at execution speed and setup friction.
 
 ---
 
-Most founders waste time doing three things:
-- Deciding the same stuff again every week
-- Mixing strategy, coding, and design in one messy chat
-- Forgetting what they decided last session
+Most founders lose momentum on three things:
+- Agentic workflows break because every tool asks for another API key
+- Strategy, coding, and design get mixed into one noisy chat
+- Decisions get lost, so the same week repeats again
 
-**FounderOS fixes all three.** You get 5 AI agents, each good at one thing. They remember your past decisions. And they work inside Antigravity without any API keys.
+**FounderOS fixes all three.** You get 5 specialized agents with persistent memory. It works in **Claude Code**, **Codex**, and **Antigravity** with no API-key setup.
 
 ## Your Team
 
 | Who | What they do | Command |
 |---|---|---|
-| **ELON** | Thinks big. Challenges your strategy. | `/ceo` |
-| **SATOSHI** | Plans your week. Keeps you shipping. | `/coo` |
-| **DANIEL** | Builds stuff. Code, architecture, systems. | `/cto` |
-| **BRIAN** | Makes it look good. UX, design, flow. | `/cdo` |
-| **ANDREJ** | Teaches you. Fills knowledge gaps. | `/cro` |
+| **ORACLE** | The Strategist. Sees what others miss. | `/strategist` |
+| **PULSE** | The Operator. Plans your week, keeps you shipping. | `/operator` |
+| **FORGE** | The Builder. Builds apps, backends, everything. | `/builder` |
+| **PIXEL** | The Designer. Makes it look and feel amazing. | `/designer` |
+| **SAGE** | Teacher & Researcher. Teaches you what you need. | `/teacher` |
 
 ## Before vs After
 
@@ -39,15 +39,39 @@ git clone https://github.com/bibhubhushan/founder-os.git
 cd founder-os
 ```
 
-Open the folder in **Antigravity** and type:
+Open the folder in **Claude Code**, **Codex**, or **Antigravity** and type:
 
 ```
-/ceo What makes us different?
-/coo Plan my week
+/strategist What makes us different?
+/operator Plan my week
 /team_mvp Build this in 72 hours
 ```
 
 That's it. No setup. No config. No keys.
+
+## Launch Kit
+
+- `USER_GUIDE.md` — simple handoff guide for first-time users
+- `WHAT_WE_ARE_BUILDING.md` — clear product and mission summary
+- `MESSAGING.md` — 15s, 45s, and 2-minute pitch scripts
+- `SOCIAL_POSTS.md` — launch post and reply templates
+- `PROOF_BOARD.md` — proof capture and publication loop
+- `MOAT_PLAN.md` — 90-day moat execution plan
+- `WEEK1_DUAL_MODE.md` — first-week plan for Founder Mode + Freelancer Mode
+
+## Cross-Tool Sync (Claude/Codex/Antigravity)
+
+Keep memory aligned across tools:
+
+```bash
+./sync_memory.sh
+```
+
+Optional custom commit message:
+
+```bash
+./sync_memory.sh "chore(memory): day 3 updates"
+```
 
 ## Want a browser dashboard?
 
@@ -63,11 +87,11 @@ You get a full dashboard with chat, memory editor, and all commands. Runs on Pyt
 | Command | What it does |
 |---|---|
 | `/route` | Figures out which agent you need |
-| `/coo` | Plan your sprint, set tasks |
-| `/ceo` | Challenge your idea, find your edge |
-| `/cto` | Build, debug, pick the right tech |
-| `/cdo` | Design it, make it feel right |
-| `/cro` | Learn something deeply |
+| `/operator` | Plan your sprint, set tasks (Pulse) |
+| `/strategist` | Challenge your idea, find your edge (Oracle) |
+| `/builder` | Build, debug, pick the right tech (Forge) |
+| `/designer` | Design it, make it feel right (Pixel) |
+| `/teacher` | Learn something deeply (Sage) |
 | `/team_mvp` | Strategy + build + design together |
 | `/cofounder` | Big picture + execution together |
 | `/core_team` | All builders check in |
@@ -76,7 +100,7 @@ You get a full dashboard with chat, memory editor, and all commands. Runs on Pyt
 ## How it works
 
 1. **Clone** this repo
-2. **Open in Antigravity** — agents load automatically from the files
+2. **Open in Claude Code, Codex, or Antigravity** — agents load automatically
 3. **Type a command** — you get routed to the right agent
 4. **Your memory saves** — decisions, lessons, journal all persist
 5. **Come back tomorrow** — everything is still there
@@ -85,12 +109,15 @@ You get a full dashboard with chat, memory editor, and all commands. Runs on Pyt
 
 ```
 founder-os/
-  .agent/workflows/     # All the command workflows
-  01_SATOSHI/            # Operations agent instructions
-  03_ELON/               # Strategy agent instructions
-  04_DANIEL/             # Engineering agent (with extra skills)
-  05_BRIAN/              # Design agent instructions
-  06_ANDREJ/             # Learning agent instructions
+  CLAUDE.md              # Auto-loaded by Claude Code
+  AGENTS.md              # Auto-loaded by Codex
+  .claude/commands/      # Slash commands for Claude Code
+  .agent/workflows/      # Slash commands for Antigravity
+  01_SATOSHI/            # PULSE — The Operator
+  03_ELON/               # ORACLE — The Strategist
+  04_DANIEL/             # FORGE — The Builder
+  05_BRIAN/              # PIXEL — The Designer
+  06_ANDREJ/             # SAGE — Teacher & Researcher
   memory/                # Your persistent memory files
   app/                   # Browser dashboard (optional)
   web/                   # Landing page
@@ -100,7 +127,7 @@ founder-os/
 ## Who is this for?
 
 - You're building something and can't hire a team yet
-- You use Antigravity but API keys are too expensive
+- You use Claude Code, Codex, or Antigravity but API keys are too expensive
 - You want your AI to actually remember your past sessions
 - You're tired of starting every AI chat from scratch
 
@@ -114,6 +141,6 @@ MIT — do whatever you want with it.
 
 ---
 
-**5 agents. No API keys. Just ship.**
+**5 agents. 3 platforms. No API keys. Just ship.**
 
 Made by [@bibhubhushan](https://github.com/bibhubhushan)

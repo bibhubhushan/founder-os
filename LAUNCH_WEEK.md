@@ -1,65 +1,71 @@
-# Launch Week Plan (Go Viral Fast)
+# Launch Sprint (24 Hours + 7 Days)
 
-Goal: get as many founders using this in 7 days as possible.
+Goal: create a breakout launch around one painful truth.
 
-## One-Liner
+## Positioning (Non-Negotiable)
 
-**"FounderOS: 5 AI agents that help you build your startup. No API keys. Free."**
+**"FounderOS helps you build agentically without API-key setup pain."**
 
-What you're promising:
-- Plan your week faster
-- Remember every decision
-- Ship more, forget less
+If a post, demo, or reply does not reinforce that line, cut it.
 
-## Day-by-Day Plan
+## 24-Hour Strike Plan
 
-### Day 1: Get it Ready
-- Clean up README, examples, and docs
-- Record one 60-second demo (just show it working)
-- Put out v1.0.0
+### Hour 0-2: Prepare Assets
+- Lock README headline and CTA
+- Record one 20-30 second demo: setup -> command -> result
+- Prepare one visual with social proof placeholders (stars, users, quotes)
 
-### Day 2: Spread the Word
-- Write your launch posts (X + LinkedIn + founder groups)
-- Take some screenshots of the landing page
-- Make a list of 20 founders to DM
+### Hour 2-3: Launch Post
+- Post a short launch on X with demo and repo link
+- Pin the post
+- First CTA: "Star the repo if this removes API pain for you"
 
-### Day 3: Get People to Try It
-- DM 20 founders: "Try this for one day and tell me what you think"
-- Ask each one: what worked? what didn't?
-- Fix the top 3 problems right away
+### Hour 3-8: Aggressive Distribution
+- Reply to 50 relevant founder/dev posts with useful comments
+- Send 20 targeted DMs to builders who already post about AI tooling
+- Share one proof update every 90 minutes (stars, testimonials, fixes shipped)
 
-### Day 4: Show Results
-- Share 3 short before/after stories from testers
-- Push v1.0.1 with fixes
-- Post a "how I planned my week in 10 minutes" thread
+### Hour 8-24: Convert Attention
+- Release one tiny improvement based on comments
+- Post a follow-up thread with "what changed in 1 day"
+- Ask for a specific contribution: stars, issue reports, or first PRs
 
-### Day 5: Build Momentum
-- Start a 7-day challenge: "Ship something with FounderOS every day"
-- Share example prompts from `examples/`
-- Get people to post about building in public
+## 7-Day Expansion Plan
 
-### Day 6: Make More Content
-- Write one post: "Why most founders waste time without a system"
-- Share clips and screenshots everywhere
-- Post answers to common questions
+### Day 2
+- Publish "How to run FounderOS in 30 seconds" clip
+- Add first user quote to README
 
-### Day 7: Keep Going
-- Share your week's numbers
-- Invite people to contribute (`CONTRIBUTING.md`)
-- Ask what features people want next
+### Day 3
+- Launch a 7-day public build challenge
+- Share 3 real user use-cases
 
-## What You Need to Make
+### Day 4
+- Ship top 3 requested fixes
+- Post changelog screenshot and tag contributors
 
-- 1 demo video (60 seconds)
-- 3 screenshots showing it in action
-- 1 before/after comparison
-- 3 short quotes from people who tried it
+### Day 5
+- Publish one contrarian thread: why API friction kills agentic adoption
+- Cross-post in 3 communities (founders + indie hackers + devs)
 
-## Track These Every Day
+### Day 6
+- Publish "before vs after" workflows from users
+- Push another release with visible wins
 
-- GitHub stars
-- How many people finished setup
-- How many people actually used it to ship
-- How many came back after 2 days
+### Day 7
+- Share full launch metrics and lessons
+- Announce next milestone and invite collaborators
 
-If something isn't working after 2 days, switch to DMing founders directly.
+## Metrics That Matter
+
+- `stars_24h` target: 100+
+- `setup_attempts_24h` target: 50+
+- `qualified_replies_24h` target: 30+
+- `user_quotes_week1` target: 5+
+
+## Kill Criteria
+
+If `stars_24h < 30`, reposition message the same day and relaunch with a tighter niche:
+- Solo founders shipping MVP in 7 days
+- Non-technical founders using AI teams
+- Builders blocked on API-key setup

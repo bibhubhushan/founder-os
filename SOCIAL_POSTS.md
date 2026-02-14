@@ -1,69 +1,80 @@
-# Launch Posts
+# Launch Posts (High-Conversion)
 
-Use these when you launch. Copy, paste, post.
+Use these as templates. Replace placeholders before posting.
 
-## X Post (Short)
+## X Post (Primary Launch)
 
 ```text
-I made FounderOS for Antigravity and open-sourced it.
+Most people can't code agentically because setup is a mess and every tool asks for API keys.
 
-5 AI agents that help you:
-- think bigger
-- plan your week
-- build stuff
-- make it look good
-- learn what you need
+I built FounderOS to remove that friction:
+- 5 AI agents (strategy, ops, build, design, research)
+- Works in Codex, Claude Code, and Antigravity
+- No API keys required
 
-No API keys. Totally free.
-
-If you're building something, try it:
+If this solves your setup pain, star it:
 [repo-link]
 ```
 
-## X Thread Opener
+## X Thread (Proof-Based)
 
 ```text
-Most founders don't need more prompts.
-They need a team.
+I think "agentic coding" won't go mainstream until setup is trivial.
 
-I built FounderOS for Antigravity:
-- 5 agents, each good at one thing
-- commands that just work
-- it remembers everything
+So I built FounderOS (open source):
+1) Clone repo
+2) Open in Codex/Claude/Antigravity
+3) Run role commands and ship
 
-Here's how I use it to ship every week:
+What I removed:
+- API key setup overhead
+- role confusion in one giant chat
+- decision loss between sessions
+
+If you're building this week, try it:
+[repo-link]
 ```
 
-## LinkedIn Post
+## X Reply Templates (Distribution Engine)
 
 ```text
-I kept making the same planning mistakes every week. So I built FounderOS and open-sourced it.
+Useful point. I kept hitting the same issue: agentic workflows die at setup.
+I open-sourced a no-key starter stack for this: [repo-link]
+```
 
-What it does:
-- 5 AI agents, each focused on one job (strategy, planning, building, design, learning)
-- Saves your decisions so you never forget
-- Gives you a simple weekly plan to keep shipping
+```text
+Agree. Most people don't fail at prompting, they fail at workflow.
+FounderOS gives role-based agents + persistent memory: [repo-link]
+```
 
-Who it's for:
-- Solo founders
-- Small teams
-- Anyone who ships every week
+```text
+This is exactly why I built FounderOS.
+Goal: remove API friction and get people shipping in minutes: [repo-link]
+```
 
-No API keys needed. Works in Antigravity. Free forever.
+## LinkedIn Post (Cleaner Positioning)
 
-Link:
+```text
+Hot take: agentic coding adoption is blocked more by setup friction than model quality.
+
+I built FounderOS to solve that:
+- 5 specialized AI agents
+- persistent memory across sessions
+- works in Codex / Claude Code / Antigravity
+- no API-key setup
+
+It's open source and free.
 [repo-link]
 
-Try it and tell me what's broken. I'll fix it fast.
+If you're building a startup right now, test it and tell me where it breaks.
 ```
 
-## Founder Community Intro
+## DM Template (Warm Outreach)
 
 ```text
-I built a free AI team for founders. It runs in Antigravity.
+Hey [name], I built something I think you'll care about.
+FounderOS helps founders run agentic workflows without API-key setup pain.
 
-Happy to share:
-1) How to set it up in 5 minutes
-2) The weekly plan I follow
-3) Templates for decisions and reviews
+Would love your honest take after a 5-minute test:
+[repo-link]
 ```
