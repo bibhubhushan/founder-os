@@ -39,12 +39,20 @@ git clone https://github.com/bibhubhushan/founder-os.git
 cd founder-os
 ```
 
-Open the folder in **Claude Code**, **Codex**, or **Antigravity** and type:
+Open the folder in **Claude Code**, **Codex**, or **Antigravity** and start like this:
+
+```
+/mode
+```
+
+In Antigravity, `/mode` is the first entrypoint.  
+Choose **Founder Mode** or **Freelancer Mode**, then continue.
+
+For Claude Code/Codex, you can directly run:
 
 ```
 /strategist What makes us different?
 /operator Plan my week
-/team_mvp Build this in 72 hours
 ```
 
 That's it. No setup. No config. No keys.
@@ -86,6 +94,7 @@ You get a full dashboard with chat, memory editor, and all commands. Runs on Pyt
 
 | Command | What it does |
 |---|---|
+| `/mode` | Start here in Antigravity. Picks Founder Mode or Freelancer Mode |
 | `/route` | Figures out which agent you need |
 | `/operator` | Plan your sprint, set tasks (Pulse) |
 | `/strategist` | Challenge your idea, find your edge (Oracle) |

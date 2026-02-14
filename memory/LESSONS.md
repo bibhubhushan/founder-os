@@ -17,3 +17,4 @@ Purpose: Capture mistakes and repeatable wins.
 - Claims do not compound; daily proof artifacts do.
 - Cross-tool continuity requires explicit Git sync, not assumption.
 - Simple naming conventions improve first-time user adoption.
+- New users perform better with one entry command than a long command menu.

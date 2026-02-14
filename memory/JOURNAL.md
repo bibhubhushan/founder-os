@@ -59,3 +59,9 @@ What was attempted: Simplify all usage naming into two clear modes only.
 What shipped: Updated docs to use `Founder Mode` and `Freelancer Mode` consistently in `WEEK1_DUAL_MODE.md`, `USER_GUIDE.md`, and `README.md`.
 What failed: No external user validation of the updated wording yet.
 Next session focus: Run one real day in each mode and record friction points.
+
+Date: 2026-02-14 16:45
+What was attempted: Reduce Antigravity command overload and enforce a mode-first onboarding path.
+What shipped: Added `.agent/workflows/mode.md`, moved previous Antigravity workflows to `.agent/workflows_legacy/`, and updated `README.md` + `USER_GUIDE.md` to start with `/mode`.
+What failed: Mode-first flow is implemented but still needs first-time user validation in Antigravity.
+Next session focus: Validate with one new user and adjust the `/mode` prompt if any confusion remains.

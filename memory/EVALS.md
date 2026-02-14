@@ -62,3 +62,12 @@ What went well: Applied consistent naming across key guides to reduce cognitive 
 What to improve: Validate with a first-time user walkthrough.
 User score:
 User note:
+
+Date: 2026-02-14
+Agent: ELON
+Task: Implement a mode-first Antigravity command experience.
+Self-score: 5
+What went well: Replaced command overload with a single `/mode` entrypoint and updated onboarding docs.
+What to improve: Validate if any advanced users need quick-access shortcuts restored.
+User score:
+User note:

@@ -53,3 +53,10 @@ Options considered: Keep mixed labels (startup/freelance/track A/B); simplify to
 Why this choice: Consistent naming reduces onboarding confusion and makes daily switching faster.
 Owner: Founder
 Review date: 2026-02-21
+
+Date: 2026-02-14
+Decision: Make Antigravity mode-first with a single visible entry command (`/mode`) and move other workflows to legacy.
+Options considered: Keep full command list; trim only duplicates; mode-first single entrypoint.
+Why this choice: New users were overloaded by the command picker. Mode-first onboarding reduces friction and confusion.
+Owner: Founder
+Review date: 2026-02-21

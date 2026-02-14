@@ -26,7 +26,17 @@ Open this folder in your tool:
 - Codex
 - Antigravity
 
-Then run:
+If you are in Antigravity, run:
+
+```text
+/mode
+```
+
+Then choose:
+- Founder Mode
+- Freelancer Mode
+
+If you are in Claude Code or Codex, run:
 
 ```text
 /strategist What should I focus on this week?
@@ -132,6 +142,7 @@ git pull
 
 ## 8. Command Cheat Sheet
 
+- `/mode` start here in Antigravity
 - `/route` if unsure where to start
 - `/strategist` for big decisions
 - `/operator` for weekly or daily planning
