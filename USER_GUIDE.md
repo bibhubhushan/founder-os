@@ -122,6 +122,10 @@ Then run:
 /operator Convert this into an execution plan.
 ```
 
+If you do not know client/task/skills yet:
+- say it directly in Freelancer Mode
+- `/mode` will return a default client-hunt + delivery plan instead of asking many questions
+
 ## 7. Keep Claude, Codex, and Antigravity in Sync
 
 Run after every session:

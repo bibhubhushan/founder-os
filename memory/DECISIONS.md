@@ -67,3 +67,10 @@ Options considered: Soft recommendation to choose mode; strict gating with `/mod
 Why this choice: Prevents new-user confusion and ensures consistent context before any agent output.
 Owner: Founder
 Review date: 2026-02-21
+
+Date: 2026-02-14
+Decision: Add strict quality guardrails in `/mode` for Freelancer Mode (anti-hallucination, max 2 clarifying questions, actionable fallback for unknown client/task/skills).
+Options considered: Keep current open-ended questioning; enforce deterministic fallback response format.
+Why this choice: Users with incomplete inputs need immediate execution plans, not interrogation loops or inferred skill claims.
+Owner: Founder
+Review date: 2026-02-21

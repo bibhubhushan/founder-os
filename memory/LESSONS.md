@@ -19,3 +19,4 @@ Purpose: Capture mistakes and repeatable wins.
 - Simple naming conventions improve first-time user adoption.
 - New users perform better with one entry command than a long command menu.
 - Mode-gated access prevents premature agent calls and reduces onboarding errors.
+- In freelancer onboarding, low-info user input should trigger a concrete fallback plan, not repeated clarifying questions.

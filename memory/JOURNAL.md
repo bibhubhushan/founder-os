@@ -71,3 +71,9 @@ What was attempted: Implement stricter mode-gated access so no agent behavior ru
 What shipped: Updated `.agent/workflows/mode.md` with mandatory access gate and added `memory/SESSION_MODE.md`; updated docs with in-mode agent call format.
 What failed: Needs real-user validation in Antigravity UI to confirm mental model clarity.
 Next session focus: Run one onboarding test and collect confusion points.
+
+Date: 2026-02-14 17:20
+What was attempted: Fix poor Freelancer Mode output quality when users provide low-information inputs.
+What shipped: Updated `.agent/workflows/mode.md` with strict anti-hallucination rules, no-interrogation loop rule, and deterministic fallback response format for unknown client/task/skills.
+What failed: Needs live validation in Antigravity with the same input sequence that previously failed.
+Next session focus: Re-run the freelancer scenario and confirm plan quality improves immediately.
