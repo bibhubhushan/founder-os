@@ -60,3 +60,10 @@ Options considered: Keep full command list; trim only duplicates; mode-first sin
 Why this choice: New users were overloaded by the command picker. Mode-first onboarding reduces friction and confusion.
 Owner: Founder
 Review date: 2026-02-21
+
+Date: 2026-02-14
+Decision: Enforce mode-gated agent access in Antigravity (no agent behavior before mode selection).
+Options considered: Soft recommendation to choose mode; strict gating with `/mode` as access gate.
+Why this choice: Prevents new-user confusion and ensures consistent context before any agent output.
+Owner: Founder
+Review date: 2026-02-21

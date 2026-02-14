@@ -15,6 +15,18 @@ When this command is used, immediately help the user choose one of two modes:
 
 Do not show any extra options first.
 
+## Access Gate (Mandatory)
+
+Before mode selection:
+- Do not run strategist, operator, builder, designer, or teacher behavior.
+- Do not answer with normal agent output.
+- Ask only: "Choose mode: Founder Mode or Freelancer Mode?"
+
+After mode selection:
+- Agent capabilities are available only through this `/mode` workflow.
+- Keep routing requests internally based on role keywords.
+- If user says "switch mode", pause and re-run mode selection.
+
 ## Mode Behavior
 
 ### Founder Mode
@@ -41,6 +53,17 @@ Activate this flow:
 5. Route knowledge gaps to SAGE behavior.
 
 Output should prioritize on-time delivery, scope clarity, and revision control.
+
+## Agent Call Format Inside `/mode`
+
+After mode is selected, users can call agents by intent keywords:
+- `strategy: ...` -> ORACLE behavior
+- `ops: ...` -> PULSE behavior
+- `build: ...` -> FORGE behavior
+- `design: ...` -> PIXEL behavior
+- `learn: ...` -> SAGE behavior
+
+If no keyword is provided, route automatically from user intent.
 
 ## Conversation Rules
 

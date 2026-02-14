@@ -18,3 +18,4 @@ Purpose: Capture mistakes and repeatable wins.
 - Cross-tool continuity requires explicit Git sync, not assumption.
 - Simple naming conventions improve first-time user adoption.
 - New users perform better with one entry command than a long command menu.
+- Mode-gated access prevents premature agent calls and reduces onboarding errors.

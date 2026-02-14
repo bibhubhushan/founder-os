@@ -48,6 +48,15 @@ Open the folder in **Claude Code**, **Codex**, or **Antigravity** and start like
 In Antigravity, `/mode` is the first entrypoint.  
 Choose **Founder Mode** or **Freelancer Mode**, then continue.
 
+In Antigravity, agent access is mode-gated:
+- Before mode selection, no agent workflow should run.
+- After mode selection, call agents through `/mode` using:
+- `strategy: ...`
+- `ops: ...`
+- `build: ...`
+- `design: ...`
+- `learn: ...`
+
 For Claude Code/Codex, you can directly run:
 
 ```

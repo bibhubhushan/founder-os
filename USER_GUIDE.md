@@ -36,6 +36,15 @@ Then choose:
 - Founder Mode
 - Freelancer Mode
 
+Important:
+- Before mode selection, do not run agent tasks.
+- After mode selection, call agents inside `/mode`:
+- `strategy: ...`
+- `ops: ...`
+- `build: ...`
+- `design: ...`
+- `learn: ...`
+
 If you are in Claude Code or Codex, run:
 
 ```text

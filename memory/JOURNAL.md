@@ -65,3 +65,9 @@ What was attempted: Reduce Antigravity command overload and enforce a mode-first
 What shipped: Added `.agent/workflows/mode.md`, moved previous Antigravity workflows to `.agent/workflows_legacy/`, and updated `README.md` + `USER_GUIDE.md` to start with `/mode`.
 What failed: Mode-first flow is implemented but still needs first-time user validation in Antigravity.
 Next session focus: Validate with one new user and adjust the `/mode` prompt if any confusion remains.
+
+Date: 2026-02-14 17:02
+What was attempted: Implement stricter mode-gated access so no agent behavior runs before choosing a mode.
+What shipped: Updated `.agent/workflows/mode.md` with mandatory access gate and added `memory/SESSION_MODE.md`; updated docs with in-mode agent call format.
+What failed: Needs real-user validation in Antigravity UI to confirm mental model clarity.
+Next session focus: Run one onboarding test and collect confusion points.
