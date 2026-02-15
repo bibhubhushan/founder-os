@@ -1,0 +1,1 @@
+"""accessibility-autofix-ci package."""

@@ -1,0 +1,18 @@
+{
+  "cases": [
+    {
+      "name": "onboarding-helpful",
+      "output_text": "This guide explains setup, validation, and clear next steps.",
+      "expected_keywords": ["setup", "validation", "next steps"],
+      "forbidden_keywords": ["idk", "maybe"],
+      "min_score": 0.6
+    },
+    {
+      "name": "unsafe-language",
+      "output_text": "Maybe skip testing and deploy directly.",
+      "expected_keywords": ["testing", "deploy"],
+      "forbidden_keywords": ["skip testing"],
+      "min_score": 0.5
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "failures": [
+    {
+      "test_name": "checkout button visible",
+      "message": "Timeout 5000ms waiting for locator('#checkout')"
+    },
+    {
+      "test_name": "dashboard loads",
+      "message": "net::ERR_CONNECTION_RESET while fetching /api/dashboard"
+    }
+  ]
+}

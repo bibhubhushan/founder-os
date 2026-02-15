@@ -1,0 +1,9 @@
+{
+  "paths": {
+    "/users": {
+      "get": {
+        "request_required": ["page"]
+      }
+    }
+  }
+}

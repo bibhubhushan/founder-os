@@ -1,0 +1,12 @@
+{
+  "paths": {
+    "/users": {
+      "get": {
+        "request_required": ["page", "size"]
+      },
+      "post": {
+        "request_required": ["email", "name"]
+      }
+    }
+  }
+}

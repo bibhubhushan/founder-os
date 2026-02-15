@@ -1,0 +1,38 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies (for any project built inside)
+node_modules/
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Build output
+dist/
+build/
+*.egg-info/
+
+# Secrets
+*.pem
+*.key
+credentials.json
+
+# Claude local settings (keep commands, ignore local prefs)
+.claude/settings.local.json
+
+# Plan files (temporary)
+.claude/plans/

@@ -1,0 +1,7 @@
+{
+  "steps": [
+    {"name": "lint", "duration_ms": 40000},
+    {"name": "test", "duration_ms": 180000},
+    {"name": "build", "duration_ms": 95000}
+  ]
+}
